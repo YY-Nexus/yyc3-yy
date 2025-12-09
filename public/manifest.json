@@ -1,0 +1,140 @@
+{
+  "name": "JINLAN 企业管理系统",
+  "short_name": "JINLAN EMS",
+  "description": "专业的企业管理系统，支持AI智能助手和多种大模型",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0ea5e9",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "zh-CN",
+  "categories": ["business", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/images/jinlan-logo-new.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/jinlan-logo-new.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/jinlan-logo-new.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/jinlan-logo-new.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/jinlan-logo-new.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/jinlan-logo-new.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/jinlan-logo-new.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/jinlan-logo-new.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "仪表盘",
+      "short_name": "仪表盘",
+      "description": "查看系统概览和关键指标",
+      "url": "/",
+      "icons": [
+        {
+          "src": "/images/jinlan-logo-new.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "AI助手",
+      "short_name": "AI助手",
+      "description": "智能业务分析和决策支持",
+      "url": "/ai-assistant",
+      "icons": [
+        {
+          "src": "/images/jinlan-logo-new.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "审批中心",
+      "short_name": "审批",
+      "description": "处理待审批事项",
+      "url": "/approval",
+      "icons": [
+        {
+          "src": "/images/jinlan-logo-new.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "客户管理",
+      "short_name": "客户",
+      "description": "管理客户信息",
+      "url": "/customers",
+      "icons": [
+        {
+          "src": "/images/jinlan-logo-new.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "桌面端主界面"
+    },
+    {
+      "src": "/images/screenshot-mobile.png",
+      "sizes": "375x812",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "移动端界面"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "handle_links": "preferred",
+  "capture_links": "existing-client-navigate"
+}
